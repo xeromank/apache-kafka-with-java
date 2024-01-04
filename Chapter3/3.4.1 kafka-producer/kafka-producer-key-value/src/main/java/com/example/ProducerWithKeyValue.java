@@ -7,7 +7,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 
 public class ProducerWithKeyValue {
-    private final static String TOPIC_NAME = "test";
+    private final static String TOPIC_NAME = "alter.test";
     private final static String BOOTSTRAP_SERVERS = "my-kafka:9092";
 
     public static void main(String[] args) {
